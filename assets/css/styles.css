@@ -569,6 +569,16 @@ img {
   font-weight: var(--font-medium);
 }
 
+.contact__title.call-link {
+  text-decoration: underline;
+  color: var(--title-color);
+}
+
+.contact__title.call-link:hover {
+  text-decoration: none;
+  color: var(--first-color-lighter);
+}
+
 .contact__subtitle {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
